@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Diego Retaggi ed Elisa Pietroni invitano a celebrare il loro matrimonio ad Ancona il 19 settembre 2026."
+  >
+  <title>Diego & Elisa | 19 settembre 2026</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;1,6..96,500;1,6..96,600&family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Vai al contenuto</a>
+  <div class="page-shell">
+    <div class="grain"></div>
+
+    <header class="hero">
+      <div class="hero__backdrop"></div>
+      <div class="hero__content">
+        <h1 class="reveal reveal-delay-1">Diego & Elisa</h1>
+        <p class="hero__surname reveal reveal-delay-2">Retaggi • Pietroni</p>
+        <p class="hero__lead reveal reveal-delay-2">
+          Una giornata tra il bianco della pietra del Conero, il mare di Portonovo e le persone che amiamo.
+        </p>
+        <p class="hero__date reveal reveal-delay-3">Sabato 19 settembre 2026 • Ancona</p>
+      </div>
+    </header>
+
+    <main class="content" id="main-content">
+      <section class="section section--intro">
+        <div class="section-heading">
+          <p class="section-kicker">La giornata</p>
+          <h2>Informazioni per la giornata.</h2>
+          <p class="section-heading__lead">
+            La cerimonia si terrà ad Ancona nella cattedrale di San Ciriaco. Dopo la celebrazione ci
+            sposteremo a Portonovo, al Fortino Napoleonico, per il pranzo e i festeggiamenti.
+          </p>
+        </div>
+
+        <div class="intro-grid">
+          <article class="info-card">
+            <p class="info-card__label">Cerimonia</p>
+            <div class="info-card__media">
+              <img
+                src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80"
+                alt="Veduta luminosa della cattedrale di San Ciriaco"
+                width="1200"
+                height="900"
+                loading="lazy"
+              >
+            </div>
+            <h3>Chiesa di San Ciriaco</h3>
+            <div class="detail-list">
+              <div class="detail-list__row">
+                <p class="detail-list__label">Orario</p>
+                <p class="detail-list__value">11:30</p>
+              </div>
+              <div class="detail-list__row">
+                <p class="detail-list__label">Luogo</p>
+                <p class="detail-list__value">Cattedrale di San Ciriaco, Ancona</p>
+              </div>
+              <div class="detail-list__row">
+                <p class="detail-list__label">Nota</p>
+                <p class="detail-list__value">La chiesa si affaccia sul porto e sarà il primo momento della giornata insieme.</p>
+              </div>
+            </div>
+            <div class="info-card__actions">
+              <a
+                class="text-link"
+                href="https://maps.google.com/?q=Cattedrale+di+San+Ciriaco+Ancona"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Apri la mappa
+              </a>
+            </div>
+          </article>
+
+          <article class="info-card info-card--highlight">
+            <p class="info-card__label">Ricevimento</p>
+            <div class="info-card__media">
+              <img
+                src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80"
+                alt="Costa e mare di Portonovo in una luce calda"
+                width="1200"
+                height="900"
+                loading="lazy"
+              >
+            </div>
+            <h3>Fortino Napoleonico</h3>
+            <div class="detail-list">
+              <div class="detail-list__row">
+                <p class="detail-list__label">Orario</p>
+                <p class="detail-list__value">Dopo la cerimonia</p>
+              </div>
+              <div class="detail-list__row">
+                <p class="detail-list__label">Luogo</p>
+                <p class="detail-list__value">Fortino Napoleonico, Portonovo</p>
+              </div>
+              <div class="detail-list__row">
+                <p class="detail-list__label">Nota</p>
+                <p class="detail-list__value">Pranzo, brindisi e tempo insieme nella baia di Portonovo.</p>
+              </div>
+            </div>
+            <div class="info-card__actions">
+              <a
+                class="text-link"
+                href="https://maps.google.com/?q=Fortino+Napoleonico+Portonovo"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Indicazioni per arrivare
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--gift" id="regalo">
+        <div class="gift-card">
+          <p class="section-kicker">Un pensiero per noi</p>
+          <h2>La vostra presenza sarà il regalo più bello.</h2>
+          <p class="gift-card__copy">
+            Per chi desidera lasciarci un contributo, qui trovate i riferimenti bancari raccolti in questa pagina.
+          </p>
+
+          <div class="iban-box">
+            <p class="iban-box__label">Intestatario</p>
+            <p class="iban-box__value iban-box__value--compact">Diego Retaggi</p>
+            <p class="iban-box__label">IBAN</p>
+            <p class="iban-box__value" id="iban-value">IT00 X000 0000 0000 0000 0000 000</p>
+            <button class="copy-button" type="button" data-copy-target="iban-value">
+              Copia IBAN
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--photos" id="foto">
+        <div class="gift-card">
+          <p class="section-kicker">Foto della giornata</p>
+          <h2>Condividi con noi i tuoi scatti.</h2>
+          <p class="gift-card__copy">
+            Possiamo raccogliere qui le foto e i video della giornata tramite un album condiviso Google Foto.
+          </p>
+
+          <div class="iban-box">
+            <p class="iban-box__label">Album condiviso</p>
+            <a
+              class="copy-button copy-button--link"
+              href="https://photos.app.goo.gl/6RqkFo5jzJNgiQ7H7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Apri l'album
+            </a>
+            <p class="iban-box__note">
+              Esempio: crea un album condiviso, abilita la collaborazione e inserisci qui il link da condividere con gli invitati.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--contacts" id="contatti">
+        <div class="section-heading">
+          <p class="section-kicker">Contatti utili</p>
+          <h2>Per informazioni o necessità.</h2>
+          <p class="section-heading__lead">
+            Se hai bisogno di un’informazione pratica o vuoi aggiornarci, puoi contattarci qui.
+          </p>
+        </div>
+
+        <div class="intro-grid intro-grid--contacts">
+          <article class="info-card">
+            <p class="info-card__label">Organizzazione</p>
+            <h3>Diego</h3>
+            <div class="detail-list">
+              <div class="detail-list__row">
+                <p class="detail-list__label">Telefono</p>
+                <p class="detail-list__value">+39 000 000 0000</p>
+              </div>
+              <div class="detail-list__row">
+                <p class="detail-list__label">Email</p>
+                <p class="detail-list__value">diego@example.com</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="info-card">
+            <p class="info-card__label">Dettagli pratici</p>
+            <h3>Elisa</h3>
+            <div class="detail-list">
+              <div class="detail-list__row">
+                <p class="detail-list__label">Telefono</p>
+                <p class="detail-list__value">+39 000 000 0000</p>
+              </div>
+              <div class="detail-list__row">
+                <p class="detail-list__label">Email</p>
+                <p class="detail-list__value">elisa@example.com</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <p class="footer-note">Con affetto, Diego & Elisa</p>
+    </main>
+  </div>
+
+  <button class="back-to-top" type="button" aria-label="Torna in cima alla pagina">
+    Torna su
+  </button>
+  <script src="script.js"></script>
+</body>
+</html>
