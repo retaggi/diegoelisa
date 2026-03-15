@@ -617,7 +617,7 @@ button:focus-visible {
   }
 
   .hero h1 {
-    font-size: clamp(4.8rem, 16vw, 6.8rem);
+    font-size: clamp(5.4rem, 17vw, 7.4rem);
     line-height: 0.98;
     letter-spacing: -0.025em;
   }
@@ -740,11 +740,15 @@ button:focus-visible {
     min-height: 48px;
     padding: 0 14px;
   }
+
+  .footer-note {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 420px) {
   .hero h1 {
-    font-size: clamp(2.9rem, 13vw, 4rem);
+    font-size: clamp(4.6rem, 16vw, 6.2rem);
   }
 
   .section {
@@ -754,6 +758,10 @@ button:focus-visible {
   .iban-box__value {
     font-size: 1rem;
     letter-spacing: 0.08em;
+  }
+
+  .footer-note {
+    font-size: 1.8rem;
   }
 }
 
