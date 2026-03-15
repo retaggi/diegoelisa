@@ -323,6 +323,41 @@ h3 {
   line-height: 1.65;
 }
 
+.detail-list__value--contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: rgba(37, 211, 102, 0.12);
+  color: #1f8f52;
+  transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.whatsapp-link svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.whatsapp-link:hover,
+.whatsapp-link:focus-visible {
+  transform: translateY(-1px);
+  background: rgba(37, 211, 102, 0.2);
+}
+
 .info-card__actions {
   display: flex;
   gap: 12px;
@@ -337,6 +372,10 @@ h3 {
   padding: 10px 0 6px;
   border-bottom: 1px solid rgba(47, 36, 29, 0.18);
   font-weight: 600;
+}
+
+.text-link--push-right {
+  margin-left: auto;
 }
 
 .section--timeline {
