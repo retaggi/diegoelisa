@@ -254,6 +254,13 @@ h3 {
   max-width: 720px;
 }
 
+.section-heading .section-kicker,
+.gift-card .section-kicker {
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0.24em;
+}
+
 .section-heading h2,
 .gift-card h2 {
   margin-top: 8px;
@@ -700,6 +707,12 @@ button:focus-visible {
   .section-heading__lead {
     margin-top: 12px;
     font-size: 1.1rem;
+  }
+
+  .section-heading .section-kicker,
+  .gift-card .section-kicker {
+    font-size: 0.74rem;
+    letter-spacing: 0.18em;
   }
 
   .eyebrow,
