@@ -552,7 +552,7 @@ h3 {
   margin: 34px auto 0;
   text-align: center;
   font-family: "Kuenstler", "Bickham Script One", "Cormorant Garamond", serif;
-  font-size: 3.2rem;
+  font-size: 4.2rem;
   font-weight: 400;
   letter-spacing: 0.03em;
   color: var(--ink-900);
@@ -789,7 +789,7 @@ button:focus-visible {
   }
 
   .footer-note {
-    font-size: 1.7rem;
+    font-size: 2.7rem;
   }
 }
 
@@ -808,7 +808,7 @@ button:focus-visible {
   }
 
   .footer-note {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
   }
 }
 
