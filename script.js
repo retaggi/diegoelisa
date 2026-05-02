@@ -13,7 +13,7 @@ if (copyButton) {
     const originalLabel = copyButton.textContent;
 
     try {
-      await navigator.clipboard.writeText(target.textContent.trim());
+      await navigator.clipboard.writeText(target.textContent.replace(/\s+/g, ""));
       copyButton.textContent = "IBAN copiato";
       copyButton.classList.add("is-copied");
     } catch {

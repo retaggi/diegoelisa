@@ -137,7 +137,8 @@ button {
   background:
     linear-gradient(rgba(27, 24, 21, 0.14), rgba(27, 24, 21, 0.34)),
     /* url("assets/images/diegoelisa2.jpg") center/cover; */
-    url("assets/images/diegoelisa4.png") center/cover;
+    url("assets/images/diegoelisa6.png") center/cover;
+    /* url("assets/images/diegoelisa5.jpeg") center/cover; */
     /* url("assets/images/hero-sea.jpg") center/cover; */
 }
 
