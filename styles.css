@@ -830,3 +830,10 @@ button:focus-visible {
     transition: none;
   }
 }
+
+
+.copy-button.is-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
